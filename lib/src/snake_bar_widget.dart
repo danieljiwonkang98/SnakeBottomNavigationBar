@@ -276,9 +276,8 @@ class _SnakeNavigationBar extends StatelessWidget {
       child: Stack(
         alignment: Alignment.bottomCenter,
         children: [
-          SafeArea(
-            left: false,
-            right: false,
+          Container(
+            height: height,
             child: Material(
               shadowColor: shadowColor,
               elevation: elevation,
